@@ -1,0 +1,109 @@
+/* Body Styles */
+body {
+    background-color: #f0e8db;
+    font-family: arial;
+    letter-spacing: .1rem;
+    background-image: url("./images/flowBackground.jpg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: rgb(75, 75, 75);
+}
+
+.bigMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.left {
+    width: 50%;
+}
+
+.DBJ {
+    width: 40px;
+    margin: 20px;
+}
+
+.leftNav {
+    width:100vh;    
+    height:45px;
+    position:fixed;
+    -webkit-transform-origin: left top;
+    -webkit-transform:rotate(-90deg) translateX(-100%);
+}
+
+h1.title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    position: fixed;
+    margin: 10px;
+}
+
+h1.article {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 85%;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.sources {
+    margin-right: 250px;
+    margin-left: 200px;
+}
+
+#Title {
+    margin-top: 100px;
+}
+
+p.paragraph {
+    font-family: 'Playfair Display', serif;
+    width: 80%;
+    margin:100px;
+}
+
+img.graphs {
+    width: 100%;
+}
+
+img.influenza {
+    width: 100%;
+    text-align: center;
+}
+
+img.flatcurve {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.subtitle {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
