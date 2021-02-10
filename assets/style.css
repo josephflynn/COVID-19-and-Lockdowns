@@ -107,3 +107,26 @@ img.flatcurve {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+img.center {
+    text-align: center;
+}
+
+.esad {
+    width: 200px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.dbj {
+    width: 100px;
+    padding-top:100px;
+    padding-bottom: 200px;
+    margin: auto;
+}
